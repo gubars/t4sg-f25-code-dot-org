@@ -1,0 +1,1600 @@
+Error retrieving instance profile credentials: Failed to open TCP connection to 169.254.169.254:80 (Operation timed out - user specified timeout)
+git config --local include.path ../.gitconfig
+Finished install:hooks (less than a minute)
+Finished install:locals_yml (less than a minute)
+which npm
+Finished install:apps (less than a minute)
+bundle config set --local without production adhoc staging test levelbuilder integration
+bundle install --quiet --jobs 10
+uv sync --dev
+Using CPython 3.13.7 interpreter at: /opt/homebrew/opt/python@3.13/bin/python3.13
+Creating virtual environment at: /Users/kylezheng/code/t4sg-f25-code-dot-org/.venv
+Resolved 60 packages in 17ms
+   Building neighborhood @ file:///Users/kylezheng/code/t4sg-f25-code-dot-org/python/pythonlab/neighborhood
+   Building pycdo @ file:///Users/kylezheng/code/t4sg-f25-code-dot-org/python/pycdo
+   Building pythonlab-setup @ file:///Users/kylezheng/code/t4sg-f25-code-dot-org/python/pythonlab/pythonlab_setup
+   Building unittest-runner @ file:///Users/kylezheng/code/t4sg-f25-code-dot-org/python/pythonlab/unittest_runner
+Downloading pillow (2.8MiB)
+Downloading pygments (1.1MiB)
+Downloading matplotlib (7.4MiB)
+Downloading jedi (1.5MiB)
+Downloading fonttools (2.6MiB)
+Downloading numpy (4.9MiB)
+Downloading pydantic-core (1.7MiB)
+Downloading ruff (9.5MiB)
+Downloading botocore (12.7MiB)
+ Downloading pygments
+ Downloading jedi
+ Downloading pydantic-core
+ Downloading fonttools
+ Downloading pillow
+      Built neighborhood @ file:///Users/kylezheng/code/t4sg-f25-code-dot-org/python/pythonlab/neighborhood
+      Built pycdo @ file:///Users/kylezheng/code/t4sg-f25-code-dot-org/python/pycdo
+      Built pythonlab-setup @ file:///Users/kylezheng/code/t4sg-f25-code-dot-org/python/pythonlab/pythonlab_setup
+      Built unittest-runner @ file:///Users/kylezheng/code/t4sg-f25-code-dot-org/python/pythonlab/unittest_runner
+ Downloading numpy
+ Downloading matplotlib
+ Downloading ruff
+ Downloading botocore
+Prepared 58 packages in 2.15s
+Installed 58 packages in 176ms
+ + annotated-types==0.7.0
+ + anyio==4.7.0
+ + asttokens==3.0.0
+ + boto3==1.35.81
+ + botocore==1.35.81
+ + certifi==2024.8.30
+ + charset-normalizer==3.4.0
+ + contourpy==1.3.1
+ + coverage==7.6.9
+ + cycler==0.12.1
+ + decorator==5.1.1
+ + distro==1.9.0
+ + executing==2.1.0
+ + fonttools==4.55.3
+ + h11==0.14.0
+ + httpcore==1.0.7
+ + httpx==0.28.1
+ + idna==3.10
+ + iniconfig==2.0.0
+ + ipython==8.30.0
+ + jedi==0.19.2
+ + jiter==0.8.2
+ + jmespath==1.0.1
+ + kiwisolver==1.4.7
+ + matplotlib==3.9.4
+ + matplotlib-inline==0.1.7
+ + neighborhood==0.4.0 (from file:///Users/kylezheng/code/t4sg-f25-code-dot-org/python/pythonlab/neighborhood)
+ + numpy==2.2.0
+ + openai==1.57.4
+ + packaging==24.2
+ + parso==0.8.4
+ + pexpect==4.9.0
+ + pillow==11.0.0
+ + pluggy==1.5.0
+ + prompt-toolkit==3.0.48
+ + ptyprocess==0.7.0
+ + pure-eval==0.2.3
+ + pycdo==0.1.0 (from file:///Users/kylezheng/code/t4sg-f25-code-dot-org/python/pycdo)
+ + pydantic==2.10.3
+ + pydantic-core==2.27.1
+ + pygments==2.18.0
+ + pyparsing==3.2.0
+ + pytest==8.3.4
+ + pytest-mock==3.14.0
+ + python-dateutil==2.9.0.post0
+ + pythonlab-setup==0.2.0 (from file:///Users/kylezheng/code/t4sg-f25-code-dot-org/python/pythonlab/pythonlab_setup)
+ + requests==2.32.3
+ + ruff==0.8.3
+ + s3transfer==0.10.4
+ + six==1.17.0
+ + sniffio==1.3.1
+ + stack-data==0.6.3
+ + tqdm==4.67.1
+ + traitlets==5.14.3
+ + typing-extensions==4.12.2
+ + unittest-runner==0.3.0 (from file:///Users/kylezheng/code/t4sg-f25-code-dot-org/python/pythonlab/unittest_runner)
+ + urllib3==2.2.3
+ + wcwidth==0.2.13
+RAILS_ENV=development RACK_ENV=development bundle exec rake dashboard:setup_db --trace
+** Invoke dashboard:setup_db (first_time)
+** Invoke db:setup_or_migrate (first_time)
+Error retrieving instance profile credentials: Failed to open TCP connection to 169.254.169.254:80 (Operation timed out - user specified timeout)
+** Execute db:setup_or_migrate
+** Invoke environment (first_time)
+** Execute environment
+[DEPRECATED] Bundler.rubygems.all_specs has been removed in favor of Bundler.rubygems.installed_specs
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+** Invoke db:load_config (first_time)
+** Invoke environment 
+** Execute db:load_config
+** Invoke db:create (first_time)
+** Invoke db:load_config 
+** Execute db:create
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+Created database 'dashboard_development'
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+Created database 'dashboard_test'
+** Invoke db:schema:load (first_time)
+** Invoke db:load_config 
+** Invoke db:check_protected_environments (first_time)
+** Invoke db:load_config 
+** Execute db:check_protected_environments
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+** Execute db:schema:load
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+Finished db:setup_or_migrate (5 seconds)
+** Invoke seed:default (first_time)
+** Invoke seed:check_migrations (first_time)
+** Invoke environment 
+** Execute seed:check_migrations
+WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+Finished seed:check_migrations (less than 1 second)
+** Invoke seed:videos (first_time)
+** Invoke environment 
+** Execute seed:videos
+Finished seed:videos (less than 1 second)
+** Invoke seed:concepts (first_time)
+** Invoke environment 
+** Execute seed:concepts
+Finished seed:concepts (less than 1 second)
+** Invoke seed:scripts (first_time)
+** Invoke environment 
+** Invoke seed:check_migrations 
+** Invoke seed:games (first_time)
+** Invoke environment 
+** Execute seed:games
+Finished seed:games (less than 1 second)
+** Invoke seed:skills (first_time)
+** Invoke environment 
+** Execute seed:skills
+Finished seed:skills (less than 1 second)
+** Invoke seed:deprecated_blockly_levels (first_time)
+** Invoke environment 
+** Execute seed:deprecated_blockly_levels
+Finished seed:deprecated_blockly_levels (3 seconds)
+** Invoke seed:child_dsls (first_time)
+** Invoke environment 
+** Execute seed:child_dsls
+warning: unable to decrypt level Blocks to Math 1, skipping
+warning: unable to decrypt level U2L07 Assessment4, skipping
+warning: unable to decrypt level Algo MST Student Lesson Introduction, skipping
+warning: unable to decrypt level CSD U3 Collision Detection, skipping
+warning: unable to decrypt level CSD U3 complex sprite movement SFLP, skipping
+warning: unable to decrypt level CSD U3 Entertainment_2018, skipping
+warning: unable to decrypt level CSD U3 Entertainment_2018_2019_pilot, skipping
+warning: unable to decrypt level CSD U3 Entertainment_2018_2019_pilot_2020, skipping
+warning: unable to decrypt level CSD U3 Entertainment_2018_2019_pilot_2020_virtual, skipping
+warning: unable to decrypt level CSD U3 Entertainment_2018_2019_pilot_2020_virtual_2020, skipping
+warning: unable to decrypt level CSD U3 Entertainment_2018_2019_pilot_2021, skipping
+warning: unable to decrypt level csp-pt-tech-setup-and-tools2022, skipping
+warning: unable to decrypt level csp-pt-tech-setup-and-tools2022_2023, skipping
+warning: unable to decrypt level csp-pt-tech-setup-and-tools2022_2024, skipping
+warning: unable to decrypt level csp-pt-tech-setup-and-tools2022_2025, skipping
+warning: unable to decrypt level csp-pt-tech-setup-and-tools_2020, skipping
+warning: unable to decrypt level csp-pt-tech-setup-and-tools_2021, skipping
+warning: unable to decrypt level CSPU5_U3L20 Student Lesson Introduction, skipping
+warning: unable to decrypt level CSPU5_U3L25 Student Lesson Introduction, skipping
+warning: unable to decrypt level CSPU5_U3L27 Student Lesson Introduction, skipping
+warning: unable to decrypt level CSPU5_U3L28 Student Lesson Introduction, skipping
+warning: unable to decrypt level How "if-else-if" Works_2018, skipping
+warning: unable to decrypt level How "if-else-if" Works_2018_2019, skipping
+warning: unable to decrypt level How "if-else-if" Works_2018_2019_virtual, skipping
+warning: unable to decrypt level How to pick a random button_2018_2019, skipping
+warning: unable to decrypt level How to pick a random button_2018_2019_virtual, skipping
+warning: unable to decrypt level ml-markdown placeholder, skipping
+warning: unable to decrypt level OPD-K5 Celebrate_copy, skipping
+warning: unable to decrypt level OPD-K5 CS, skipping
+warning: unable to decrypt level OPD-K5 CS_copy, skipping
+warning: unable to decrypt level Pilot Student App Interest Survey CSP 20-21, skipping
+warning: unable to decrypt level Social Sleuth_2018, skipping
+warning: unable to decrypt level Social Sleuth_2018_2019_pilot, skipping
+warning: unable to decrypt level Social Sleuth_2018_2019_pilot_2020, skipping
+warning: unable to decrypt level Social Sleuth_2018_2019_pilot_2020_virtual, skipping
+warning: unable to decrypt level Social Sleuth_2018_2019_pilot_2021, skipping
+warning: unable to decrypt level Social Sleuth_2018_2019_pilot_2022, skipping
+warning: unable to decrypt level Social Sleuth_2018_2019_pilot_2023, skipping
+warning: unable to decrypt level Social Sleuth_2018_2019_pilot_2024, skipping
+warning: unable to decrypt level Social Sleuth_2018_2019_pilot_2024pilot, skipping
+warning: unable to decrypt level Social Sleuth_2018_2019_pilot_2025, skipping
+warning: unable to decrypt level Test External Markdown, skipping
+warning: unable to decrypt level timeforcs_demo_c1_1, skipping
+warning: unable to decrypt level timeforcs_demo_c1_2, skipping
+warning: unable to decrypt level timeforcs_demo_c1_3, skipping
+warning: unable to decrypt level timeforcs_demo_c1_4, skipping
+warning: unable to decrypt level timeforcs_demo_c1_5, skipping
+warning: unable to decrypt level timeforcs_demo_c2_1, skipping
+warning: unable to decrypt level timeforcs_demo_c2_2, skipping
+warning: unable to decrypt level timeforcs_demo_c2_3, skipping
+warning: unable to decrypt level timeforcs_demo_c2_4, skipping
+warning: unable to decrypt level timeforcs_demo_c2_5, skipping
+warning: unable to decrypt level timeforcs_demo_c3_1, skipping
+warning: unable to decrypt level U1L12 Student Lesson Introduction, skipping
+warning: unable to decrypt level U1L15 Student Lesson Summary, skipping
+warning: unable to decrypt level U1L1 Student Lesson Introduction, skipping
+warning: unable to decrypt level U1L5 Student Lesson Introduction, skipping
+warning: unable to decrypt level U1L9 Student Lesson Introduction, skipping
+warning: unable to decrypt level U2L13 Student Lesson Introduction, skipping
+warning: unable to decrypt level U2L14 Student Lesson Introduction, skipping
+warning: unable to decrypt level U2L15 Student Lesson Introduction, skipping
+warning: unable to decrypt level U2L18 Student Lesson Introduction, skipping
+warning: unable to decrypt level U2L20 Student Lesson Introduction, skipping
+warning: unable to decrypt level U2L3 Student Lesson Introduction, skipping
+warning: unable to decrypt level U2L6 Student Lesson Introduction, skipping
+warning: unable to decrypt level U2L7 Student Lesson Introduction, skipping
+warning: unable to decrypt level U3 whats a comment_2018, skipping
+warning: unable to decrypt level U3 whats a comment_2018_2019, skipping
+warning: unable to decrypt level U3 whats a comment_2018_2019_virtual, skipping
+warning: unable to decrypt level U3L27 Student Lesson Introduction, skipping
+warning: unable to decrypt level U3L28 Student Lesson Introduction, skipping
+warning: unable to decrypt level U4L09 Student Lesson Intro Practice PT big data dilemma, skipping
+warning: unable to decrypt level U5 color sleuth check correct_2018_2019, skipping
+warning: unable to decrypt level U5 color sleuth check correct_2018_2019_virtual, skipping
+warning: unable to decrypt level Unit 4 Lesson 2 Introduction, skipping
+warning: unable to decrypt level Unit 4 Lesson 3 Introduction, skipping
+warning: unable to decrypt level Unit 4 Lesson 4 Introduction, skipping
+warning: unable to decrypt level Unit 4 Lesson 5 Introduction, skipping
+warning: unable to decrypt level Unit 4 Lesson 6 Introduction, skipping
+warning: unable to decrypt level Unit 4 Lesson 8 Introduction, skipping
+warning: unable to decrypt level Unit 5 Lesson 11 Introduction, skipping
+warning: unable to decrypt level Unit 5 Lesson 16 Introduction, skipping
+warning: unable to decrypt level v2 U1L14 Student Lesson Introduction, skipping
+warning: unable to decrypt level v2 U1L5 Student Lesson Introduction, skipping
+warning: unable to decrypt level v2 U1L8 Student Lesson Introduction, skipping
+warning: unable to decrypt level v2 U1L9 Student Lesson Introduction, skipping
+warning: unable to decrypt level v2 U2L11 Student Lesson Introduction, skipping
+warning: unable to decrypt level v2 U2L15 Student Lesson Introduction, skipping
+warning: unable to decrypt level v2 U2L1 Student Lesson Introduction, skipping
+warning: unable to decrypt level v2 U2L3 Student Lesson Summary, skipping
+warning: unable to decrypt level v2 U2L4 Student Lesson Summary, skipping
+warning: unable to decrypt level v2 U2L5 Student Lesson Introduction, skipping
+warning: unable to decrypt level v2 U2L6 Student Lesson Introduction, skipping
+warning: unable to decrypt level v2 U2L9 Student Lesson Introduction, skipping
+warning: unable to decrypt level v2 U3L10 Student Lesson Introduction, skipping
+warning: unable to decrypt level v2 U4L05 Student Lesson Intro Encryption Caesar, skipping
+warning: unable to decrypt level v2 U4L06 Student Lesson Introduction Encryption Vigenere, skipping
+warning: unable to decrypt level VPL-CSD-PILOT-S22-CI-Social Sleuth_2018_2019_pilot_2021, skipping
+warning: unable to decrypt level Welcome to TeacherCon!, skipping
+warning: unable to decrypt level CSD U1 Match Q5_2023, skipping
+warning: unable to decrypt level CSD U1 Match Q5_2024, skipping
+warning: unable to decrypt level CSD U1 Match Q5_2024b, skipping
+warning: unable to decrypt level CSD U1 Match Q5_2025, skipping
+warning: unable to decrypt level CSD U1 Match Q6_2023, skipping
+warning: unable to decrypt level CSD U1 Match Q6_2024, skipping
+warning: unable to decrypt level CSD U1 Match Q6_2024b, skipping
+warning: unable to decrypt level CSD U1 Match Q6_2025, skipping
+warning: unable to decrypt level CSD U2 Match Q1_2023, skipping
+warning: unable to decrypt level CSD U2 Match Q1_2024, skipping
+warning: unable to decrypt level CSD U2 Match Q1_2024pilot, skipping
+warning: unable to decrypt level CSD U2 Match Q1_2025, skipping
+warning: unable to decrypt level CSD U2 Match Q9_2023, skipping
+warning: unable to decrypt level CSD U3 Match Q11_2023, skipping
+warning: unable to decrypt level CSD U3 Match Q1_2023, skipping
+warning: unable to decrypt level CSD U3 Match Q1_2024, skipping
+warning: unable to decrypt level CSD U3 Match Q1_2025, skipping
+warning: unable to decrypt level CSD U3 Match Q2_2023, skipping
+warning: unable to decrypt level CSD U3 Match Q2_2024, skipping
+warning: unable to decrypt level CSD U3 Match Q2_2025, skipping
+warning: unable to decrypt level CSD U3 Match Q3_2023, skipping
+warning: unable to decrypt level CSD U3 Match Q3_2024, skipping
+warning: unable to decrypt level CSD U3 Match Q3_2025, skipping
+warning: unable to decrypt level CSD U3 Match Q9_2023, skipping
+warning: unable to decrypt level CSD U4 Match Q1_2023, skipping
+warning: unable to decrypt level CSD U4 Match Q8_2023, skipping
+warning: unable to decrypt level csp-20-21-u5-assess-lists, skipping
+warning: unable to decrypt level csp-20-21-u5-assess-lists2022, skipping
+warning: unable to decrypt level csp-20-21-u5-assess-lists2022_2023, skipping
+warning: unable to decrypt level csp-20-21-u5-assess-lists2022_2024, skipping
+warning: unable to decrypt level csp-20-21-u5-assess-lists2022_2025, skipping
+warning: unable to decrypt level csp-20-21-u5-assess-lists_2021, skipping
+warning: unable to decrypt level csp-u2-exam1-matching-device-network-system2022, skipping
+warning: unable to decrypt level csp-u2-exam1-matching-device-network-system2022_2023, skipping
+warning: unable to decrypt level csp-u2-exam1-matching-device-network-system2022_2024, skipping
+warning: unable to decrypt level csp-u2-exam1-matching-device-network-system2022_2025, skipping
+warning: unable to decrypt level csp-u2-exam1-matching-device-network-system_2020, skipping
+warning: unable to decrypt level csp-u2-exam1-matching-device-network-system_2021, skipping
+warning: unable to decrypt level matching example, skipping
+warning: unable to decrypt level CSA U1L2 CFU1 - placeholder, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-conditionals pick 2, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-conditionals pick 22022, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-conditionals pick 22022_2023, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-conditionals pick 22022_2024, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-conditionals pick 22022_2025, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-conditionals pick 2_2021, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-flowchart apples, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-flowchart apples2022, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-flowchart apples2022_2023, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-flowchart apples2022_2024, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-flowchart apples2022_2025, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-flowchart apples_2021, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-missing-code, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-missing-code2022, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-missing-code2022_2023, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-missing-code2022_2024, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-missing-code2022_2025, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-missing-code_2021, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-naming, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-naming2022, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-naming2022_2023, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-naming2022_2024, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-naming2022_2025, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-naming_2021, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-order, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-order2022, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-order2022_2023, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-order2022_2024, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-order2022_2025, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-order_2021, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-scope, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-scope2022, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-scope2022_2023, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-scope2022_2024, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-scope2022_2025, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-scope_2021, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-setup, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-setup2022, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-setup2022_2023, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-setup2022_2024, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-setup2022_2025, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-functions-setup_2021, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace2022, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace2022_2023, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace2022_2024, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace2022_2025, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 2, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace_2021, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 22022, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 22022_2023, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 22022_2024, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 22022_2025, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 2_2021, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 3, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 32022, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 32022_2023, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 32022_2024, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 32022_2025, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 3_2021, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 4, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 42022, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 42022_2023, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 42022_2024, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 42022_2025, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 4_2021, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 5, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 52022, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 52022_2023, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 52022_2024, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 52022_2025, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-variables trace 5_2021, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-vocabulary, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-vocabulary2022, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-vocabulary2022_2023, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-vocabulary2022_2024, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-vocabulary2022_2025, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-vocabulary_2021, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-why functions, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-why functions2022, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-why functions2022_2023, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-why functions2022_2024, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-why functions2022_2025, skipping
+warning: unable to decrypt level csp-20-21-u4-assess-why functions_2021, skipping
+warning: unable to decrypt level csp-20-21-u5-mini-assessment-1, skipping
+warning: unable to decrypt level csp-20-21-u5-mini-assessment-2, skipping
+warning: unable to decrypt level csp-20-21-u5-mini-assessment-4, skipping
+warning: unable to decrypt level csp-7-exam1-abstraction, skipping
+warning: unable to decrypt level csp-7-exam1-abstraction2022, skipping
+warning: unable to decrypt level csp-7-exam1-abstraction_2021, skipping
+warning: unable to decrypt level csp-7-exam1-abstraction_2022, skipping
+warning: unable to decrypt level csp-7-exam1-abstraction_2023, skipping
+warning: unable to decrypt level csp-7-exam1-abstraction_2024, skipping
+warning: unable to decrypt level csp-7-exam1-abstraction_2025, skipping
+warning: unable to decrypt level csp-7-exam1-abstraction-new, skipping
+warning: unable to decrypt level csp-7-exam1-abstraction-test-2022, skipping
+warning: unable to decrypt level csp-7-exam1-algorithms, skipping
+warning: unable to decrypt level csp-7-exam1-algorithms -2, skipping
+warning: unable to decrypt level csp-7-exam1-algorithms_2021, skipping
+warning: unable to decrypt level csp-7-exam1-algorithms_2023, skipping
+warning: unable to decrypt level csp-7-exam1-algorithms_2024, skipping
+warning: unable to decrypt level csp-7-exam1-algorithms_2025, skipping
+warning: unable to decrypt level csp-7-exam1-algorithms -2_2021, skipping
+warning: unable to decrypt level csp-7-exam1-algorithms -2_2023, skipping
+warning: unable to decrypt level csp-7-exam1-algorithms -2_2024, skipping
+warning: unable to decrypt level csp-7-exam1-algorithms -2_2025, skipping
+warning: unable to decrypt level csp-7-exam1-api-2, skipping
+warning: unable to decrypt level csp-7-exam1-api-2_2021, skipping
+warning: unable to decrypt level csp-7-exam1-api-2_2023, skipping
+warning: unable to decrypt level csp-7-exam1-api-2_2024, skipping
+warning: unable to decrypt level csp-7-exam1-api-2_2025, skipping
+warning: unable to decrypt level csp-7-exam1-api-documentation, skipping
+warning: unable to decrypt level csp-7-exam1-api-documentation2022, skipping
+warning: unable to decrypt level csp-7-exam1-api-documentation2022_2023, skipping
+warning: unable to decrypt level csp-7-exam1-api-documentation2022_2024, skipping
+warning: unable to decrypt level csp-7-exam1-api-documentation2022_2025, skipping
+warning: unable to decrypt level csp-7-exam1-api-documentation_2021, skipping
+warning: unable to decrypt level csp-7-exam1-api-documentation_2022, skipping
+warning: unable to decrypt level csp-7-exam1-api-documentation_2022a, skipping
+warning: unable to decrypt level csp-7-exam1-api-documentation_u7-2022, skipping
+warning: unable to decrypt level csp-7-exam1-API-parameters, skipping
+warning: unable to decrypt level csp-7-exam1-API-parameters2022, skipping
+warning: unable to decrypt level csp-7-exam1-API-parameters2022_2023, skipping
+warning: unable to decrypt level csp-7-exam1-API-parameters2022_2024, skipping
+warning: unable to decrypt level csp-7-exam1-API-parameters2022_2025, skipping
+warning: unable to decrypt level csp-7-exam1-API-parameters_2021, skipping
+warning: unable to decrypt level csp-7-exam1-API-parameters_2022, skipping
+warning: unable to decrypt level csp-7-exam1-API-parameters_2022a, skipping
+warning: unable to decrypt level csp-7-exam1-API-parameters_u7-2022, skipping
+warning: unable to decrypt level csp-7-exam1-library, skipping
+warning: unable to decrypt level csp-7-exam1-library_2021, skipping
+warning: unable to decrypt level csp-7-exam1-library_2023, skipping
+warning: unable to decrypt level csp-7-exam1-library_2024, skipping
+warning: unable to decrypt level csp-7-exam1-library_2025, skipping
+warning: unable to decrypt level csp-7-exam1-mod, skipping
+warning: unable to decrypt level csp-7-exam1-mod_2021, skipping
+warning: unable to decrypt level csp-7-exam1-mod_2023, skipping
+warning: unable to decrypt level csp-7-exam1-mod_2024, skipping
+warning: unable to decrypt level csp-7-exam1-mod_2025, skipping
+warning: unable to decrypt level csp-7-exam1-modularity, skipping
+warning: unable to decrypt level csp-7-exam1-modularity_2021, skipping
+warning: unable to decrypt level csp-7-exam1-modularity_2023, skipping
+warning: unable to decrypt level csp-7-exam1-modularity_2024, skipping
+warning: unable to decrypt level csp-7-exam1-modularity_2025, skipping
+warning: unable to decrypt level csp-7-exam1-return, skipping
+warning: unable to decrypt level csp-7-exam1-return2022, skipping
+warning: unable to decrypt level csp-7-exam1-return2022_2023, skipping
+warning: unable to decrypt level csp-7-exam1-return2022_2024, skipping
+warning: unable to decrypt level csp-7-exam1-return2022_2025, skipping
+warning: unable to decrypt level csp-7-exam1-return-2, skipping
+warning: unable to decrypt level csp-7-exam1-return_2021, skipping
+warning: unable to decrypt level csp-7-exam1-return_2022, skipping
+warning: unable to decrypt level csp-7-exam1-return_2022a, skipping
+warning: unable to decrypt level csp-7-exam1-return-2_2021, skipping
+warning: unable to decrypt level csp-7-exam1-return-2_2022, skipping
+warning: unable to decrypt level csp-7-exam1-return-2_2023, skipping
+warning: unable to decrypt level csp-7-exam1-return-2_2024, skipping
+warning: unable to decrypt level csp-7-exam1-return-2_2025, skipping
+warning: unable to decrypt level csp-7-exam1-return-3, skipping
+warning: unable to decrypt level csp-7-exam1-return-3_2021, skipping
+warning: unable to decrypt level csp-7-exam1-return-3_2023, skipping
+warning: unable to decrypt level csp-7-exam1-return-3_2024, skipping
+warning: unable to decrypt level csp-7-exam1-return-3_2025, skipping
+warning: unable to decrypt level csp-7-exam1-return_u7-2022, skipping
+warning: unable to decrypt level csp-7-exam1-testing, skipping
+warning: unable to decrypt level csp-7-exam1-testing2022, skipping
+warning: unable to decrypt level csp-7-exam1-testing2022_2023, skipping
+warning: unable to decrypt level csp-7-exam1-testing2022_2024, skipping
+warning: unable to decrypt level csp-7-exam1-testing2022_2025, skipping
+warning: unable to decrypt level csp-7-exam1-testing_2021, skipping
+warning: unable to decrypt level csp-7-exam1-testing_2022, skipping
+warning: unable to decrypt level csp-7-exam1-testing_2022a, skipping
+warning: unable to decrypt level csp-7-exam1-testing_u7-2022, skipping
+warning: unable to decrypt level csp-9-exam1-photo-metadata-2020, skipping
+warning: unable to decrypt level csp-9-exam1-photos-metadata-2020, skipping
+warning: unable to decrypt level csp-u5-exam1-array-length-access2022, skipping
+warning: unable to decrypt level csp-u5-exam1-array-length-access2022_2023, skipping
+warning: unable to decrypt level csp-u5-exam1-array-length-access2022_2024, skipping
+warning: unable to decrypt level csp-u5-exam1-array-length-access2022_2025, skipping
+warning: unable to decrypt level csp-u5-exam1-array-length-access_2020, skipping
+warning: unable to decrypt level csp-u5-exam1-array-length-access_2021, skipping
+warning: unable to decrypt level csp-u5-exam1-change-array-element2022, skipping
+warning: unable to decrypt level csp-u5-exam1-change-array-element2022_2023, skipping
+warning: unable to decrypt level csp-u5-exam1-change-array-element2022_2024, skipping
+warning: unable to decrypt level csp-u5-exam1-change-array-element2022_2025, skipping
+warning: unable to decrypt level csp-u5-exam1-change-array-element_2020, skipping
+warning: unable to decrypt level csp-u5-exam1-change-array-element_2021, skipping
+warning: unable to decrypt level csp-u5-exam1-data-abstraction2022, skipping
+warning: unable to decrypt level csp-u5-exam1-data-abstraction2022_2023, skipping
+warning: unable to decrypt level csp-u5-exam1-data-abstraction2022_2024, skipping
+warning: unable to decrypt level csp-u5-exam1-data-abstraction2022_2025, skipping
+warning: unable to decrypt level csp-u5-exam1-data-abstraction_2020, skipping
+warning: unable to decrypt level csp-u5-exam1-data-abstraction_2021, skipping
+warning: unable to decrypt level csp-u5-exam1-gaussian-summation2022, skipping
+warning: unable to decrypt level csp-u5-exam1-gaussian-summation2022_2023, skipping
+warning: unable to decrypt level csp-u5-exam1-gaussian-summation2022_2024, skipping
+warning: unable to decrypt level csp-u5-exam1-gaussian-summation2022_2025, skipping
+warning: unable to decrypt level csp-u5-exam1-gaussian-summation_2020, skipping
+warning: unable to decrypt level csp-u5-exam1-gaussian-summation_2021, skipping
+warning: unable to decrypt level csp-u5-exam1-modify-list-print2022, skipping
+warning: unable to decrypt level csp-u5-exam1-modify-list-print2022_2023, skipping
+warning: unable to decrypt level csp-u5-exam1-modify-list-print2022_2024, skipping
+warning: unable to decrypt level csp-u5-exam1-modify-list-print2022_2025, skipping
+warning: unable to decrypt level csp-u5-exam1-modify-list-print_2020, skipping
+warning: unable to decrypt level csp-u5-exam1-modify-list-print_2021, skipping
+warning: unable to decrypt level csp-u6-exam1-algorithm-definition2022, skipping
+warning: unable to decrypt level csp-u6-exam1-algorithm-definition2022_2023, skipping
+warning: unable to decrypt level csp-u6-exam1-algorithm-definition2022_2024, skipping
+warning: unable to decrypt level csp-u6-exam1-algorithm-definition2022_2025, skipping
+warning: unable to decrypt level csp-u6-exam1-algorithm-definition_2020, skipping
+warning: unable to decrypt level csp-u6-exam1-algorithm-definition_2021, skipping
+warning: unable to decrypt level csp-u6-exam1-binary-iterations2022, skipping
+warning: unable to decrypt level csp-u6-exam1-binary-iterations2022_2023, skipping
+warning: unable to decrypt level csp-u6-exam1-binary-iterations2022_2024, skipping
+warning: unable to decrypt level csp-u6-exam1-binary-iterations2022_2025, skipping
+warning: unable to decrypt level csp-u6-exam1-binary-iterations_2020, skipping
+warning: unable to decrypt level csp-u6-exam1-binary-iterations_2021, skipping
+warning: unable to decrypt level csp-u6-exam1-calculate-speedup2022, skipping
+warning: unable to decrypt level csp-u6-exam1-calculate-speedup2022_2023, skipping
+warning: unable to decrypt level csp-u6-exam1-calculate-speedup2022_2024, skipping
+warning: unable to decrypt level csp-u6-exam1-calculate-speedup2022_2025, skipping
+warning: unable to decrypt level csp-u6-exam1-calculate-speedup_2020, skipping
+warning: unable to decrypt level csp-u6-exam1-calculate-speedup_2021, skipping
+warning: unable to decrypt level csp-u6-exam1-comparing-efficiencies2022, skipping
+warning: unable to decrypt level csp-u6-exam1-comparing-efficiencies2022_2023, skipping
+warning: unable to decrypt level csp-u6-exam1-comparing-efficiencies2022_2024, skipping
+warning: unable to decrypt level csp-u6-exam1-comparing-efficiencies2022_2025, skipping
+warning: unable to decrypt level csp-u6-exam1-comparing-efficiencies_2020, skipping
+warning: unable to decrypt level csp-u6-exam1-comparing-efficiencies_2021, skipping
+warning: unable to decrypt level csp-u6-exam1-distributed-parallel-benefits2022, skipping
+warning: unable to decrypt level csp-u6-exam1-distributed-parallel-benefits2022_2023, skipping
+warning: unable to decrypt level csp-u6-exam1-distributed-parallel-benefits2022_2024, skipping
+warning: unable to decrypt level csp-u6-exam1-distributed-parallel-benefits2022_2025, skipping
+warning: unable to decrypt level csp-u6-exam1-distributed-parallel-benefits_2020, skipping
+warning: unable to decrypt level csp-u6-exam1-distributed-parallel-benefits_2021, skipping
+warning: unable to decrypt level csp-u6-exam1-efficiency-comparison2022, skipping
+warning: unable to decrypt level csp-u6-exam1-efficiency-comparison2022_2023, skipping
+warning: unable to decrypt level csp-u6-exam1-efficiency-comparison2022_2024, skipping
+warning: unable to decrypt level csp-u6-exam1-efficiency-comparison2022_2025, skipping
+warning: unable to decrypt level csp-u6-exam1-efficiency-comparison_2020, skipping
+warning: unable to decrypt level csp-u6-exam1-efficiency-comparison_2021, skipping
+warning: unable to decrypt level csp-u6-exam1-flow-chart-translation2022, skipping
+warning: unable to decrypt level csp-u6-exam1-flow-chart-translation2022_2023, skipping
+warning: unable to decrypt level csp-u6-exam1-flow-chart-translation2022_2024, skipping
+warning: unable to decrypt level csp-u6-exam1-flow-chart-translation2022_2025, skipping
+warning: unable to decrypt level csp-u6-exam1-flow-chart-translation_2020, skipping
+warning: unable to decrypt level csp-u6-exam1-flow-chart-translation_2021, skipping
+warning: unable to decrypt level csp-u6-exam1-heuristics2022, skipping
+warning: unable to decrypt level csp-u6-exam1-heuristics2022_2023, skipping
+warning: unable to decrypt level csp-u6-exam1-heuristics2022_2024, skipping
+warning: unable to decrypt level csp-u6-exam1-heuristics2022_2025, skipping
+warning: unable to decrypt level csp-u6-exam1-heuristics_2020, skipping
+warning: unable to decrypt level csp-u6-exam1-heuristics_2021, skipping
+warning: unable to decrypt level csp-u6-exam1-linear-or-binary2022, skipping
+warning: unable to decrypt level csp-u6-exam1-linear-or-binary2022_2023, skipping
+warning: unable to decrypt level csp-u6-exam1-linear-or-binary2022_2024, skipping
+warning: unable to decrypt level csp-u6-exam1-linear-or-binary2022_2025, skipping
+warning: unable to decrypt level csp-u6-exam1-linear-or-binary_2020, skipping
+warning: unable to decrypt level csp-u6-exam1-linear-or-binary_2021, skipping
+warning: unable to decrypt level csp-u6-exam1-modifying-algorithms2022, skipping
+warning: unable to decrypt level csp-u6-exam1-modifying-algorithms2022_2023, skipping
+warning: unable to decrypt level csp-u6-exam1-modifying-algorithms2022_2024, skipping
+warning: unable to decrypt level csp-u6-exam1-modifying-algorithms2022_2025, skipping
+warning: unable to decrypt level csp-u6-exam1-modifying-algorithms_2020, skipping
+warning: unable to decrypt level csp-u6-exam1-modifying-algorithms_2021, skipping
+warning: unable to decrypt level csp-u6-exam1-parallel-efficiency2022, skipping
+warning: unable to decrypt level csp-u6-exam1-parallel-efficiency2022_2023, skipping
+warning: unable to decrypt level csp-u6-exam1-parallel-efficiency2022_2024, skipping
+warning: unable to decrypt level csp-u6-exam1-parallel-efficiency2022_2025, skipping
+warning: unable to decrypt level csp-u6-exam1-parallel-efficiency_2020, skipping
+warning: unable to decrypt level csp-u6-exam1-parallel-efficiency_2021, skipping
+warning: unable to decrypt level csp-u6-exam1-problem-type2022, skipping
+warning: unable to decrypt level csp-u6-exam1-problem-type2022_2023, skipping
+warning: unable to decrypt level csp-u6-exam1-problem-type2022_2024, skipping
+warning: unable to decrypt level csp-u6-exam1-problem-type2022_2025, skipping
+warning: unable to decrypt level csp-u6-exam1-problem-type_2020, skipping
+warning: unable to decrypt level csp-u6-exam1-problem-type_2021, skipping
+warning: unable to decrypt level csp-u6-exam1-turtle-algorithm-comparison2022, skipping
+warning: unable to decrypt level csp-u6-exam1-turtle-algorithm-comparison2022_2023, skipping
+warning: unable to decrypt level csp-u6-exam1-turtle-algorithm-comparison2022_2024, skipping
+warning: unable to decrypt level csp-u6-exam1-turtle-algorithm-comparison2022_2025, skipping
+warning: unable to decrypt level csp-u6-exam1-turtle-algorithm-comparison_2020, skipping
+warning: unable to decrypt level csp-u6-exam1-turtle-algorithm-comparison_2021, skipping
+warning: unable to decrypt level csp-u6-exam1-undecidable-problems2022, skipping
+warning: unable to decrypt level csp-u6-exam1-undecidable-problems2022_2023, skipping
+warning: unable to decrypt level csp-u6-exam1-undecidable-problems2022_2024, skipping
+warning: unable to decrypt level csp-u6-exam1-undecidable-problems2022_2025, skipping
+warning: unable to decrypt level csp-u6-exam1-undecidable-problems_2020, skipping
+warning: unable to decrypt level csp-u6-exam1-undecidable-problems_2021, skipping
+warning: unable to decrypt level cspu5_assess2_wrongLogic_2018_2019_virtual, skipping
+warning: unable to decrypt level multiLine_answersTest, skipping
+warning: unable to decrypt level multiLineAnswersTest, skipping
+warning: unable to decrypt level SP-VPL-21-mod2-progress-mc, skipping
+Finished seed:child_dsls (4 minutes and 6 seconds)
+** Invoke seed:custom_levels (first_time)
+** Invoke environment 
+** Execute seed:custom_levels
+WARNING: level 'Create PT Workspace 2020' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'Create PT Workspace 20202022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'Create PT Workspace 2020_2021' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'Create PT Workspace 2020_2023' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'Create PT Workspace 2020_2024' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'Create PT Workspace 2020_2025' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSP U8L1 SFLP 20-21' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSP U8L1 SFLP 20-21_2021' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSP U8L2 SFLP 20-21' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSP U8L2 SFLP 20-21_2021' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSP U8L3 SFLP 20-21' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSP U8L3 SFLP 20-21_2021' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'U3L6 CSP CFU Sequential vs Event Driven' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'U3L6 CSP CFU Sequential vs Event Driven2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'U3L6 CSP CFU Sequential vs Event Driven_1' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'U3L6 CSP CFU Sequential vs Event Driven_1_2025' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'U3L6 CSP CFU Sequential vs Event Driven_2021' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'U3L6 CSP CFU Sequential vs Event Driven_2023' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'U3L6 CSP CFU Sequential vs Event Driven_2024' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'U3L6 CSP CFU Sequential vs Event Driven_2025' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'U3L7 CSP CFU What was confusing' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'U3L7 CSP CFU What was confusing2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'U3L7 CSP CFU What was confusing_2021' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'U3L7 CSP CFU What was confusing_2023' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'U3L7 CSP CFU What was confusing_2024' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'U3L7 CSP CFU What was confusing_2025' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L10-L1a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L10-L1b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L10-L1c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L10-L3a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L10-L3b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L10-L3c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L10-L3d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L10-L3v2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L10-L4v2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L11-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L11-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L11-L2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L11-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L11-L3 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L11-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L12-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L12-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L12-L3a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L12-L3b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L12-L3c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L12-L3d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L13-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L13-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L13-L2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L13-L3 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L14-L1 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L14-L2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L14-L3 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L16-L1a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L16-L1a-2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L16-L1b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L16-L1b-2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L16-L1c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L16-L1c-2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L16-L1d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L16-L1d-2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L17-L1a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L17-L1a-1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L17-L1b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L17-L1b-1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L17-L1c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L17-L1c-1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L17-L1d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L17-L1d-1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L18-L1a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L18-L1a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L18-L1b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L18-L1b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L18-L1c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L18-L1c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L18-L1d Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L18-L1d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L2-L1 - placeholder' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L2-L2 - exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L2-L4 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L3-L1 - exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L3-L1 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L3-L2 - exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L3-L3 - exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L3-L4 - exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L3-L5 - exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L3-L6 - exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L4-L1 - exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L4-L2 - exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L4-L2' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L4-L3 - exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L4-L3 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L4-L4a - exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L4-L4a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L4-L4b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L4-L4b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L4-L4c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L4-L4d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L4-L5 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L1a-1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L1b-1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L3a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L3b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L3c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L3d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L4a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L4b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L4c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L6a-1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L6a-1' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L6b-1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L6b-1' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L6c-1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L5-L6c-1' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L6-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L6-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L6-L2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L6-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L6-L3 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L6-L5a-2 - Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L6-L5b-2 - Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L6-L5c-2 - Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L6-L6a-2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L6-L6b-2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L6-L6c-2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L7-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L7-L1 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L7-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L7-L2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L7-L3 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L7-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L7-L6a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L7-L6b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L8-L1 Placeholder' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L3a CR_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L3a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L3b CR_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L3b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L3c CR_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L3c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L3d CR_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L3d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L3v2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L4a CR_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L4b CR_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L4c CR_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L4d CR_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L4v2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L5 CR Placeholder_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L5 CR_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L5 CR_pilot-2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U1L9-L6 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2 L11 Project Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2 L12 Project Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2 L13 Project Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L1-L2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L1-L3 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L1-L4v2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L1-L5 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L10-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L10-L2a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L10-L2b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L10-L2c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L10-L2d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L10-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L10-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L11-L1 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L12-L1 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L13-L1 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L2-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L2-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L3-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L3-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L4-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L4-L12b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L4-L1a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L4-L1b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L4-L1c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L4-L1d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L4-L2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L4-L2a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L4-L2c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L4-L2d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L4-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L4-L3 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L4-L3v2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L4-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L4-L4v2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L5-L1 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L5-L2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L5-L2a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L5-L2b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L5-L2c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L5-L2d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L5-L2v2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L5-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L6-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L6-L1 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L6-L2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L6-L3a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L6-L3b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L6-L3c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L6-L3d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L6-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L6-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L7-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L7-L2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L7-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L7-L3 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L7-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L7-L4 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L7-L5 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L7-L6a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L7-L6b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L7-L6c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L7-L6d Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L1 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L3 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L3v2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L4v2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L5a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L5a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L5b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L5b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L5c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L5c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L5d Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L8-L5d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L9-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L9-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L9-L2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L9-L3 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L9-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L9-L4 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L9-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L9-L6a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L9-L6b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L9-L6c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U2L9-L6d Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3 Concert Project Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L1-L2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L1-L3a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L1-L3b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L1-L3c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L10-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L10-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L10-L3a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L10-L3b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L10-L3c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L10-L3d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L10-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L10-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L11 Concert Project Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L11-L1a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L11-L1b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L11-L1c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L11-L1d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L11-L1e Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L11-L1f Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L12 Concert Project Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L12-L1a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L12-L1b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L12-L1c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L12-L1d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L12-L1e Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L12-L1f Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L13 Concert Project Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L13-L1a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L13-L1b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L13-L1c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L13-L1d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L13-L1e Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L13-L1f Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L2-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L2-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L2-L4a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L2-L4b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L2-L4c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L2-L4d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L2-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L2-L5 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L2-L6 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L2-L7 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L2-L8a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L2-L8b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L2-L8c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L3-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L3-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L3-L2 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L3-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L3-L3a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L3-L3b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L3-L3c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L3-L3d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L3-L4a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L3-L4b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L3-L4c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L4-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L4-L3a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L4-L3a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L4-L3b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L4-L3b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L4-L3c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L4-L3d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L4-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L4-L6 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L5-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L5-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L5-L4 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L5-L5a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L5-L5b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L5-L5c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L5-L5d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L6-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L6-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L6-L4a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L6-L4b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L6-L4c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L6-L4d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L6-L5a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L6-L5b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L6-L5c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L6-L5d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L7-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L7-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L7-L4a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L7-L4b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L7-L4c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L7-L4d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L7-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L7-L6-2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L8-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L8-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L8-L3 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L8-L3a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L8-L3b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L8-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L9-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L9-L2-2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L9-L3 Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L9-L3-2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L9-L4a Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L9-L4b Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L9-L4c Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U3L9-L4d Exemplar_2022' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L1-L5 Placeholder' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L1-L6 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L1-L7 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L12-1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L13-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L2-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L2-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L2-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L2-L6 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L3-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L3-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L4-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L4-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L4-L4' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L5-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L5-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L5-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L5-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L5-L6 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L5-L7 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L6-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L6-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L6-L5 v2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L6-L6 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L6-L6 v2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L6-L7 v2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L7-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L7-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L7-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L7-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L8-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L8-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L8-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L9-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L9-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L9-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L9-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U4L9-L6 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L1-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L1-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L1-L3a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L1-L3b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L1-L5a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L1-L5b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L1-L5c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L10-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L10-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L10-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L11-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L12-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L13-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L2-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L2-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L2-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L2-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L3-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L3-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L3-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L3-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L3-L6 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L3-L7 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L4-L1a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L4-L1b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L4-L1c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L4-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L4-L4a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L4-L4b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L4-L4c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L4-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L5-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L5-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L5-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L6-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L6-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L6-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L6-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L6-L6 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L7-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L7-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L7-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L7-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L8-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L8-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L8-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L8-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L9-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L9-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L9-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U5L9-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L1-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L10-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L10-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L10-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L11-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L12-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L13-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L2-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L2-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L2-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L3-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L3-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L3-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L3-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L4-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L4-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L4-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L5-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L5-L2a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L5-L2b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L5-L2c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L6-L4 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L6-L5a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L6-L5b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L6-L5c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L7-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L7-L3a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L7-L3b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L7-L3c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L7-L6 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L7-L7 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L8-L3 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L8_l2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U6L9-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L11-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L12-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L13-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L2-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L4-L2a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L4-L2b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L4-L2c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L6-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L6-L3a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L6-L3b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L6-L3c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L6-L5 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L6-L6a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L6-L6b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L6-L6c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L8-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U7L8-L2 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L11-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L12-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L13-L1 Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L3-L2a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L3-L2b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L3-L2c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L3-L2d Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L4-L2a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L4-L2b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L4-L2c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L8-L2a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L8-L2b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L8-L2c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L9-L3a Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L9-L3b Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'CSA U8L9-L3c Exemplar' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'poembot_addPoem' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'poetry_addPoem' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'poetry_chooseForeground' not seeded properly due to missing CDO.properties_encryption_key
+WARNING: level 'Allthethings Encrypted Play Lab Level' not seeded properly due to missing CDO.properties_encryption_key
+Finished seed:custom_levels (1 hour, 38 minutes, and 58 seconds)
+** Invoke seed:parent_dsls (first_time)
+** Invoke environment 
+** Execute seed:parent_dsls
+warning: unable to decrypt level CSA U1L16-L1 Exemplar, skipping
+warning: unable to decrypt level CSA U1L17-L1 Exemplar, skipping
+warning: unable to decrypt level CSA U1L6-L5 2 Exemplar, skipping
+warning: unable to decrypt level CSA U2L4-L1 Exemplar_2022, skipping
+warning: unable to decrypt level CSA U2L8-L5 Exemplars, skipping
+warning: unable to decrypt level CSA U2L9-L6 Exemplars, skipping
+warning: unable to decrypt level CSA U3L2-L8 Exemplar, skipping
+warning: unable to decrypt level CSA U3L4-L3 Exemplar, skipping
+warning: unable to decrypt level CSA U5L1-L3 Exemplar, skipping
+warning: unable to decrypt level CSA U5L1-L5 Exemplar, skipping
+warning: unable to decrypt level CSA U6L6-L5 Exemplar, skipping
+warning: unable to decrypt level CSA U6L7-L3 Exemplar, skipping
+warning: unable to decrypt level CSA U8L9-L3 Exemplar, skipping
+warning: unable to decrypt level allthethings-example-csp-assessment, skipping
+warning: unable to decrypt level CSA Unit 1 MC Assessment, skipping
+warning: unable to decrypt level CSA Unit 1 Pilot Assessment 2021, skipping
+warning: unable to decrypt level CSP 20-21 Unit 4 Assessment, skipping
+warning: unable to decrypt level CSP 20-21 Unit 4 Assessment2022, skipping
+warning: unable to decrypt level CSP 20-21 Unit 4 Assessment2022_2023, skipping
+warning: unable to decrypt level CSP 20-21 Unit 4 Assessment2022_2024, skipping
+warning: unable to decrypt level CSP 20-21 Unit 4 Assessment2022_2025, skipping
+warning: unable to decrypt level CSP 20-21 Unit 4 Assessment_2021, skipping
+warning: unable to decrypt level CSP 20-21 Unit 5 Pilot Mini Assessment, skipping
+warning: unable to decrypt level CSP Culminating Assessment, skipping
+warning: unable to decrypt level CSP Cumulative Assess A_2018_2019, skipping
+warning: unable to decrypt level CSP Cumulative Assess A_2018_2019_virtual, skipping
+warning: unable to decrypt level CSP Cumulative Assess A_exam_prep, skipping
+warning: unable to decrypt level CSP Data Questions MC_2018_2019, skipping
+warning: unable to decrypt level CSP Unit 1 AP-Style Assessment 2022, skipping
+warning: unable to decrypt level CSP Unit 1 AP-Style Assessment 2022_2023, skipping
+warning: unable to decrypt level CSP Unit 1 AP-Style Assessment 2022_2024, skipping
+warning: unable to decrypt level CSP Unit 1 AP-Style Assessment 2022_2025, skipping
+warning: unable to decrypt level CSP Unit 1 AP-Style Assessment _2020, skipping
+warning: unable to decrypt level CSP Unit 1 AP-Style Assessment _2021, skipping
+warning: unable to decrypt level CSP Unit 2 Ch1 Cumulative Assessment MC, skipping
+warning: unable to decrypt level CSP Unit 2 Ch1 Cumulative Assessment MC_2018, skipping
+warning: unable to decrypt level CSP Unit 2 Ch1 Cumulative Assessment MC_2018_2019, skipping
+warning: unable to decrypt level CSP Unit 2 Ch1 Cumulative Assessment MC_exam_prep, skipping
+warning: unable to decrypt level CSP Unit 2 Ch2 Cumulative Assessment MC, skipping
+warning: unable to decrypt level CSP Unit 2 Ch2 Cumulative Assessment MC_2018_2019, skipping
+warning: unable to decrypt level CSP Unit 2 Ch2 Cumulative Assessment MC_exam_prep, skipping
+warning: unable to decrypt level CSP Unit 2 MC Assessment 2022, skipping
+warning: unable to decrypt level CSP Unit 2 MC Assessment 2022_2023, skipping
+warning: unable to decrypt level CSP Unit 2 MC Assessment 2022_2024, skipping
+warning: unable to decrypt level CSP Unit 2 MC Assessment 2022_2025, skipping
+warning: unable to decrypt level CSP Unit 2 MC Assessment _2020, skipping
+warning: unable to decrypt level CSP Unit 2 MC Assessment _2021, skipping
+warning: unable to decrypt level CSP Unit 3 MC Assessment 2022, skipping
+warning: unable to decrypt level CSP Unit 3 MC Assessment 2022_2023, skipping
+warning: unable to decrypt level CSP Unit 3 MC Assessment 2022_2024, skipping
+warning: unable to decrypt level CSP Unit 3 MC Assessment 2022_2025, skipping
+warning: unable to decrypt level CSP Unit 3 MC Assessment _2020, skipping
+warning: unable to decrypt level CSP Unit 3 MC Assessment _2021, skipping
+warning: unable to decrypt level CSP Unit 4 Ch1 Cumulative Assessment MC, skipping
+warning: unable to decrypt level CSP Unit 4 Ch1 Cumulative Assessment MC_2018, skipping
+warning: unable to decrypt level CSP Unit 4 Ch1 Cumulative Assessment MC_2018_2019, skipping
+warning: unable to decrypt level CSP Unit 4 Ch1 Cumulative Assessment MC_exam_prep, skipping
+warning: unable to decrypt level CSP Unit 5 Cumulative Assessment 1 MC, skipping
+warning: unable to decrypt level CSP Unit 5 Cumulative Assessment 1 MC_2018, skipping
+warning: unable to decrypt level CSP Unit 5 Cumulative Assessment 1 MC_2018_2019, skipping
+warning: unable to decrypt level CSP Unit 5 Cumulative Assessment 1 MC_2018_2019_virtual, skipping
+warning: unable to decrypt level CSP Unit 5 Cumulative Assessment 1 MC_exam_prep, skipping
+warning: unable to decrypt level CSP Unit 5 Cumulative Assessment 2 MC, skipping
+warning: unable to decrypt level CSP Unit 5 Cumulative Assessment 2 MC_2018, skipping
+warning: unable to decrypt level CSP Unit 5 Cumulative Assessment 2 MC_2018_2019, skipping
+warning: unable to decrypt level CSP Unit 5 Cumulative Assessment 2 MC_2018_2019_virtual, skipping
+warning: unable to decrypt level CSP Unit 5 Cumulative Assessment 2 MC_exam_prep, skipping
+warning: unable to decrypt level CSP Unit 9 AP-Style Assessment 2022, skipping
+warning: unable to decrypt level CSP Unit 9 AP-Style Assessment 2022_2023, skipping
+warning: unable to decrypt level CSP Unit 9 AP-Style Assessment 2022_2024, skipping
+warning: unable to decrypt level CSP Unit 9 AP-Style Assessment 2022_2025, skipping
+warning: unable to decrypt level CSP Unit 9 AP-Style Assessment _2020, skipping
+warning: unable to decrypt level CSP Unit 9 AP-Style Assessment _2021, skipping
+warning: unable to decrypt level Part 1 - CSP Culminating Assessment, skipping
+warning: unable to decrypt level Pluralsight LevelGroup Test, skipping
+warning: unable to decrypt level self-paced-pl-example-levelgroup-1, skipping
+Finished seed:parent_dsls (22 minutes and 10 seconds)
+** Invoke seed:levels_skills (first_time)
+** Invoke environment 
+** Execute seed:levels_skills
+Finished seed:levels_skills (4 seconds)
+** Invoke seed:code_docs (first_time)
+** Invoke environment 
+** Execute seed:code_docs
+Finished seed:code_docs (1 second)
+** Invoke seed:blocks (first_time)
+** Invoke environment 
+** Execute seed:blocks
+Finished seed:blocks (1 second)
+** Invoke seed:standards (first_time)
+** Invoke environment 
+** Execute seed:standards
+Finished seed:standards (12 seconds)
+** Invoke seed:shared_blockly_functions (first_time)
+** Invoke environment 
+** Execute seed:shared_blockly_functions
+Finished seed:shared_blockly_functions (less than 1 second)
+** Invoke seed:libraries (first_time)
+** Invoke environment 
+** Execute seed:libraries
+Finished seed:libraries (less than 1 second)
+** Invoke seed:course_offerings (first_time)
+** Invoke environment 
+** Execute seed:course_offerings
+self_paced_pl_course_offering_key: self-paced-pl-aiml not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: teaching-ai-foundations not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: teaching-coding-with-music not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-computer-vision not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-ai-foundations not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: k5-onlinepd not found. Please seed again to fix.
+self_paced_pl_course_offering_key: k5-onlinepd not found. Please seed again to fix.
+self_paced_pl_course_offering_key: k5-onlinepd not found. Please seed again to fix.
+self_paced_pl_course_offering_key: k5-onlinepd not found. Please seed again to fix.
+self_paced_pl_course_offering_key: k5-onlinepd not found. Please seed again to fix.
+self_paced_pl_course_offering_key: k5-onlinepd not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csc not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csc not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csc not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csc not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csc not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csc not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csp not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-exploring-gen-ai not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd-unit5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd-unit4 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-physical-computing not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-exploring-gen-ai not found. Please seed again to fix.
+self_paced_pl_course_offering_key: k5-onlinepd not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-exploring-gen-ai not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-foundations-cs not found. Please seed again to fix.
+self_paced_pl_course_offering_key: microbitmakermodule not found. Please seed again to fix.
+self_paced_pl_course_offering_key: microbitmakermodule not found. Please seed again to fix.
+self_paced_pl_course_offering_key: microbitmakermodule not found. Please seed again to fix.
+self_paced_pl_course_offering_key: microbitmakermodule not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-ai-foundations not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd-unit3 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-microbit not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csc not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd-unit1 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-teaching-computer-science-discoveries-music-lab not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-ai-101 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-ai-districts not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csa not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd-unit1 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd-unit2 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd-unit3 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd-unit4 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd-unit5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csd not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-csp not found. Please seed again to fix.
+self_paced_pl_course_offering_key: self-paced-pl-k5 not found. Please seed again to fix.
+self_paced_pl_course_offering_key: teaching-ai-foundations not found. Please seed again to fix.
+self_paced_pl_course_offering_key: teaching-ai-powered-theats-and-defenses not found. Please seed again to fix.
+self_paced_pl_course_offering_key: teaching-ai-systems-that-power-it not found. Please seed again to fix.
+self_paced_pl_course_offering_key: teaching-csf not found. Please seed again to fix.
+self_paced_pl_course_offering_key: teaching-exp-gen-ai not found. Please seed again to fix.
+self_paced_pl_course_offering_key: teaching-fabric-of-internet not found. Please seed again to fix.
+self_paced_pl_course_offering_key: teaching-foundations-ai-programming not found. Please seed again to fix.
+self_paced_pl_course_offering_key: teaching-insights-from-data-and-ai not found. Please seed again to fix.
+self_paced_pl_course_offering_key: teaching-intro-java not found. Please seed again to fix.
+self_paced_pl_course_offering_key: teaching-problem-solving-with-ai not found. Please seed again to fix.
+Finished seed:course_offerings (1 second)
+** Execute seed:scripts
+WARNING: unable to import resources into script 2022drafting because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script 2022drafting because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script ai-ethics-2021 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script ai-ethics-2021 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script ai-ethics-2023 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script ai-ethics-2023 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script ai-powered-threats-and-defenses-pilot-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script ai-powered-threats-and-defenses-pilot-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script ai-temp because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script ai-temp because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aif1-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aif1-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aif1-v2-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aif1-v2-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aif2-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aif2-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aif2-v2-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aif2-v2-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aif3-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aif3-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aif3-v2-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aif3-v2-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aif4-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aif4-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aif4-v2-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aif4-v2-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aif5-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aif5-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aif5-v2-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aif5-v2-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aif6-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aif6-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aif6-v2-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aif6-v2-2025 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aiml-2021 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aiml-2021 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aiml-2022 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aiml-2022 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aiml-2023 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aiml-2023 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script aiml-2024 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script aiml-2024 because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import resources into script allthelessonplans because course version is missing. This is only to be expected if the script is being seeded for the first time.
+WARNING: unable to import vocabulary into script allthelessonplans because course version is missing. This is only to be expected if the script is being seeded for the first time.
+Error retrieving instance profile credentials: Failed to open TCP connection to 169.254.169.254:80 (Operation timed out - user specified timeout)
+rake aborted!
+Aws::Sigv4::Errors::MissingCredentialsError: Error parsing script file ./config/scripts_json/allthethings.script_json: missing credentials, provide credentials with one of the following options:
+  - :access_key_id and :secret_access_key
+  - :credentials
+  - :credentials_provider
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sigv4-1.12.0/lib/aws-sigv4/signer.rb:694:in `extract_credentials_provider'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sigv4-1.12.0/lib/aws-sigv4/signer.rb:138:in `initialize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-s3-1.98.0/lib/aws-sdk-s3/plugins/s3_signer.rb:215:in `new'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-s3-1.98.0/lib/aws-sdk-s3/plugins/s3_signer.rb:215:in `build_v4_signer'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-s3-1.98.0/lib/aws-sdk-s3/plugins/s3_signer.rb:14:in `block in <class:S3Signer>'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:72:in `call'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:215:in `block in resolve_defaults'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:59:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:59:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:214:in `resolve_defaults'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:207:in `value_at'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:191:in `block in resolve'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/set-1.1.0/lib/set.rb:501:in `each_key'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/set-1.1.0/lib/set.rb:501:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:191:in `resolve'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:179:in `apply_defaults'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:152:in `build!'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/base.rb:65:in `build_config'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/base.rb:21:in `initialize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-s3-1.98.0/lib/aws-sdk-s3/client.rb:408:in `initialize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/base.rb:102:in `new'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/lib/cdo/aws/s3.rb:59:in `connect_v2!'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/lib/cdo/aws/s3.rb:79:in `create_client'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/app/jobs/concerns/ai_rubric_config.rb:67:in `s3_client'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/app/jobs/concerns/ai_rubric_config.rb:76:in `read_file_from_s3'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/app/jobs/concerns/ai_rubric_config.rb:124:in `get_s3_learning_goals'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/app/models/learning_goal.rb:29:in `validate_ai_config'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:427:in `block in make_lambda'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:604:in `block (2 levels) in default_terminator'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:603:in `catch'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:603:in `block in default_terminator'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:199:in `block in halting'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:512:in `block in invoke_before'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:512:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:512:in `invoke_before'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:102:in `block in valid_model?'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:106:in `run_callbacks'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:84:in `valid_model?'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:596:in `block in import_helper'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:591:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:591:in `import_helper'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:530:in `bulk_import'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:545:in `bulk_import!'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/services/script_seed.rb:724:in `import_learning_goals'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/services/script_seed.rb:261:in `block in seed_from_hash'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-6.1.7.7/lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `block in transaction'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-6.1.7.7/lib/active_record/connection_adapters/abstract/transaction.rb:319:in `block in within_new_transaction'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-6.1.7.7/lib/active_record/connection_adapters/abstract/transaction.rb:317:in `within_new_transaction'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-6.1.7.7/lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `transaction'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-6.1.7.7/lib/active_record/transactions.rb:209:in `transaction'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/services/script_seed.rb:215:in `seed_from_hash'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/services/script_seed.rb:147:in `seed_from_json'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/services/script_seed.rb:139:in `seed_from_json_file'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/tasks/seed.rake:252:in `block in update_scripts'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/tasks/seed.rake:251:in `each'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/tasks/seed.rake:251:in `update_scripts'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/tasks/seed.rake:294:in `block (2 levels) in <top (required)>'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:281:in `block in execute'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:281:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:281:in `execute'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/lib/cdo/data/logging/timed_task_with_logging.rb:12:in `block in execute'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/3.1.0/benchmark.rb:311:in `realtime'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/lib/cdo/data/logging/timed_task_with_logging.rb:12:in `execute'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:219:in `block in invoke_with_call_chain'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:199:in `synchronize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:199:in `invoke_with_call_chain'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:243:in `block in invoke_prerequisites'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:241:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:241:in `invoke_prerequisites'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:218:in `block in invoke_with_call_chain'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:199:in `synchronize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:199:in `invoke_with_call_chain'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:243:in `block in invoke_prerequisites'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:241:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:241:in `invoke_prerequisites'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:218:in `block in invoke_with_call_chain'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:199:in `synchronize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:199:in `invoke_with_call_chain'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:188:in `invoke'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:188:in `invoke_task'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:138:in `block (2 levels) in top_level'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:138:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:138:in `block in top_level'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:147:in `run_with_threads'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:132:in `top_level'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:83:in `block in run'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:214:in `standard_exception_handling'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:80:in `run'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/exe/rake:27:in `<top (required)>'
+/Users/kylezheng/.rbenv/versions/3.1.0/bin/rake:25:in `load'
+/Users/kylezheng/.rbenv/versions/3.1.0/bin/rake:25:in `<top (required)>'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/cli/exec.rb:58:in `load'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/cli/exec.rb:58:in `kernel_load'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/cli/exec.rb:23:in `run'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/cli.rb:455:in `exec'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/vendor/thor/lib/thor/command.rb:28:in `run'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/vendor/thor/lib/thor.rb:527:in `dispatch'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/cli.rb:35:in `dispatch'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/vendor/thor/lib/thor/base.rb:584:in `start'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/cli.rb:29:in `start'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/exe/bundle:28:in `block in <top (required)>'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/friendly_errors.rb:117:in `with_friendly_errors'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/exe/bundle:20:in `<top (required)>'
+/Users/kylezheng/.rbenv/versions/3.1.0/bin/bundle:25:in `load'
+/Users/kylezheng/.rbenv/versions/3.1.0/bin/bundle:25:in `<main>'
+
+Caused by:
+Aws::Sigv4::Errors::MissingCredentialsError: missing credentials, provide credentials with one of the following options:
+  - :access_key_id and :secret_access_key
+  - :credentials
+  - :credentials_provider
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sigv4-1.12.0/lib/aws-sigv4/signer.rb:694:in `extract_credentials_provider'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sigv4-1.12.0/lib/aws-sigv4/signer.rb:138:in `initialize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-s3-1.98.0/lib/aws-sdk-s3/plugins/s3_signer.rb:215:in `new'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-s3-1.98.0/lib/aws-sdk-s3/plugins/s3_signer.rb:215:in `build_v4_signer'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-s3-1.98.0/lib/aws-sdk-s3/plugins/s3_signer.rb:14:in `block in <class:S3Signer>'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:72:in `call'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:215:in `block in resolve_defaults'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:59:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:59:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:214:in `resolve_defaults'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:207:in `value_at'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:191:in `block in resolve'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/set-1.1.0/lib/set.rb:501:in `each_key'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/set-1.1.0/lib/set.rb:501:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:191:in `resolve'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:179:in `apply_defaults'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/configuration.rb:152:in `build!'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/base.rb:65:in `build_config'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/base.rb:21:in `initialize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-s3-1.98.0/lib/aws-sdk-s3/client.rb:408:in `initialize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/aws-sdk-core-3.211.0/lib/seahorse/client/base.rb:102:in `new'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/lib/cdo/aws/s3.rb:59:in `connect_v2!'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/lib/cdo/aws/s3.rb:79:in `create_client'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/app/jobs/concerns/ai_rubric_config.rb:67:in `s3_client'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/app/jobs/concerns/ai_rubric_config.rb:76:in `read_file_from_s3'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/app/jobs/concerns/ai_rubric_config.rb:124:in `get_s3_learning_goals'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/app/models/learning_goal.rb:29:in `validate_ai_config'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:427:in `block in make_lambda'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:604:in `block (2 levels) in default_terminator'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:603:in `catch'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:603:in `block in default_terminator'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:199:in `block in halting'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:512:in `block in invoke_before'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:512:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:512:in `invoke_before'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:102:in `block in valid_model?'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/callbacks.rb:106:in `run_callbacks'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:84:in `valid_model?'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:596:in `block in import_helper'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:591:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:591:in `import_helper'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:530:in `bulk_import'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-import-1.3.0/lib/activerecord-import/import.rb:545:in `bulk_import!'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/services/script_seed.rb:724:in `import_learning_goals'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/services/script_seed.rb:261:in `block in seed_from_hash'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-6.1.7.7/lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `block in transaction'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-6.1.7.7/lib/active_record/connection_adapters/abstract/transaction.rb:319:in `block in within_new_transaction'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/concurrency/load_interlock_aware_monitor.rb:26:in `block (2 levels) in synchronize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `handle_interrupt'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/concurrency/load_interlock_aware_monitor.rb:25:in `block in synchronize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `handle_interrupt'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activesupport-6.1.7.7/lib/active_support/concurrency/load_interlock_aware_monitor.rb:21:in `synchronize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-6.1.7.7/lib/active_record/connection_adapters/abstract/transaction.rb:317:in `within_new_transaction'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-6.1.7.7/lib/active_record/connection_adapters/abstract/database_statements.rb:320:in `transaction'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/activerecord-6.1.7.7/lib/active_record/transactions.rb:209:in `transaction'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/services/script_seed.rb:215:in `seed_from_hash'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/services/script_seed.rb:147:in `seed_from_json'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/services/script_seed.rb:139:in `seed_from_json_file'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/tasks/seed.rake:252:in `block in update_scripts'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/tasks/seed.rake:251:in `each'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/tasks/seed.rake:251:in `update_scripts'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/dashboard/lib/tasks/seed.rake:294:in `block (2 levels) in <top (required)>'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:281:in `block in execute'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:281:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:281:in `execute'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/lib/cdo/data/logging/timed_task_with_logging.rb:12:in `block in execute'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/3.1.0/benchmark.rb:311:in `realtime'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/lib/cdo/data/logging/timed_task_with_logging.rb:12:in `execute'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:219:in `block in invoke_with_call_chain'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:199:in `synchronize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:199:in `invoke_with_call_chain'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:243:in `block in invoke_prerequisites'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:241:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:241:in `invoke_prerequisites'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:218:in `block in invoke_with_call_chain'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:199:in `synchronize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:199:in `invoke_with_call_chain'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:243:in `block in invoke_prerequisites'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:241:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:241:in `invoke_prerequisites'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:218:in `block in invoke_with_call_chain'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:199:in `synchronize'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:199:in `invoke_with_call_chain'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/task.rb:188:in `invoke'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:188:in `invoke_task'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:138:in `block (2 levels) in top_level'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:138:in `each'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:138:in `block in top_level'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:147:in `run_with_threads'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:132:in `top_level'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:83:in `block in run'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:214:in `standard_exception_handling'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/lib/rake/application.rb:80:in `run'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/rake-13.2.1/exe/rake:27:in `<top (required)>'
+/Users/kylezheng/.rbenv/versions/3.1.0/bin/rake:25:in `load'
+/Users/kylezheng/.rbenv/versions/3.1.0/bin/rake:25:in `<top (required)>'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/cli/exec.rb:58:in `load'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/cli/exec.rb:58:in `kernel_load'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/cli/exec.rb:23:in `run'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/cli.rb:455:in `exec'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/vendor/thor/lib/thor/command.rb:28:in `run'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/vendor/thor/lib/thor.rb:527:in `dispatch'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/cli.rb:35:in `dispatch'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/vendor/thor/lib/thor/base.rb:584:in `start'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/cli.rb:29:in `start'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/exe/bundle:28:in `block in <top (required)>'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/lib/bundler/friendly_errors.rb:117:in `with_friendly_errors'
+/Users/kylezheng/.rbenv/versions/3.1.0/lib/ruby/gems/3.1.0/gems/bundler-2.5.17/exe/bundle:20:in `<top (required)>'
+/Users/kylezheng/.rbenv/versions/3.1.0/bin/bundle:25:in `load'
+/Users/kylezheng/.rbenv/versions/3.1.0/bin/bundle:25:in `<main>'
+Tasks: TOP => dashboard:setup_db => seed:default => seed:scripts
+rake aborted!
+'RAILS_ENV=development RACK_ENV=development bundle exec rake dashboard:setup_db --trace' returned 1
+/Users/kylezheng/code/t4sg-f25-code-dot-org/lib/cdo/rake_utils.rb:89:in `system_stream_output'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/lib/cdo/rake_utils.rb:68:in `rake_stream_output'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/lib/rake/install.rake:61:in `block (3 levels) in <top (required)>'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/lib/rake/install.rake:43:in `chdir'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/lib/rake/install.rake:43:in `block (2 levels) in <top (required)>'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/lib/cdo/data/logging/timed_task_with_logging.rb:12:in `block in execute'
+/Users/kylezheng/code/t4sg-f25-code-dot-org/lib/cdo/data/logging/timed_task_with_logging.rb:12:in `execute'
+/Users/kylezheng/.rbenv/versions/3.1.0/bin/bundle:25:in `load'
+/Users/kylezheng/.rbenv/versions/3.1.0/bin/bundle:25:in `<main>'
+Tasks: TOP => install => install:all => install:dashboard
+(See full trace by running task with --trace)
