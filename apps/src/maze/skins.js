@@ -7,6 +7,10 @@
 // specified, otherwise, use background.png.
 // look: Colour of sonar-like look icon.
 
+
+/* 
+  I'm still working on getting the virtual machine to run everything, just adding this to show that I have been able to look at the sprites.
+*/
 import neighborhoodSprites from './neighborhoodSprites.json';
 
 var skinsBase = require('../skins');
