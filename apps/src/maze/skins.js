@@ -153,6 +153,7 @@ var CONFIGS = {
   },
 
   scrat: {
+    // DELIVERABLE WEEK 4 - Debugging in Maze.
     goalIdle: 'goal.png',
     goalAnimation: 'goal.png',
     maze_forever: 'maze_forever.png',
@@ -179,7 +180,7 @@ var CONFIGS = {
     // This is required when move pegman animation is set
     movePegmanAnimationFrameNumber: 9,
 
-    approachingGoalAnimation: 'close_goal_2.png',
+    approachingGoalAnimation: 'close_goal.png',
     pegmanHeight: 107,
     pegmanWidth: 80,
     pegmanXOffset: -12,
