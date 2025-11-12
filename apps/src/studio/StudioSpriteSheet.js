@@ -117,10 +117,7 @@ export default class StudioSpriteSheet {
 
   /** @return {number} number of animation frames for a given type. */
   getAnimationFrameCount(animationType) {
-    return valueOr(
-      this.animationFrameCounts[animationType],
-      this.defaultFramesPerAnimation
-    );
+    return 1;
   }
 
   /**

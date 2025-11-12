@@ -161,23 +161,23 @@ var CONFIGS = {
     additionalSound: true,
     idlePegmanAnimation: 'idle_avatar_sheet.png',
     idlePegmanAnimationSpeedScale: 1.5,
-    idlePegmanCol: 4,
-    idlePegmanRow: 11,
+    idlePegmanCol: 1,
+    idlePegmanRow: 1,
 
     hittingWallAnimation: 'wall_avatar_sheet.png',
-    hittingWallAnimationFrameNumber: 20,
+    hittingWallAnimationFrameNumber: 1,
     hittingWallAnimationSpeedScale: 1.5,
     hittingWallPegmanCol: 1,
-    hittingWallPegmanRow: 20,
+    hittingWallPegmanRow: 1,
 
     celebrateAnimation: 'jump_acorn_sheet.png',
     celebratePegmanCol: 1,
-    celebratePegmanRow: 9,
+    celebratePegmanRow: 1,
 
     movePegmanAnimation: 'move_avatar.png',
     movePegmanAnimationSpeedScale: 1.5,
     // This is required when move pegman animation is set
-    movePegmanAnimationFrameNumber: 9,
+    movePegmanAnimationFrameNumber: 1,
 
     approachingGoalAnimation: 'close_goal.png',
     pegmanHeight: 107,
