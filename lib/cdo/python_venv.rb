@@ -51,8 +51,12 @@ module PythonVenv
     command = args.map(&:to_s).join(' ')
     CDO.log.info command
 
+    # Set PYO3_USE_ABI3_FORWARD_COMPATIBILITY=1 to allow building with Python 3.14+
+    # when PyO3 doesn't officially support it yet
+    env_command = "PYO3_USE_ABI3_FORWARD_COMPATIBILITY=1 #{command}"
+
     output = ""
-    IO.popen(command) do |io|
+    IO.popen(env_command) do |io|
       io.each_line do |line|
         puts line if ENV['RAKE_VERBOSE']
         output << line
