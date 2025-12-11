@@ -1,13 +1,86 @@
-I started by taking a deeper look at how collision detection works in Studio. The system actually revolves around two main modules. The first is walls.js, which is in charge of predicting whether a sprite or item will hit a wall before it moves. The core entry point is willCollidableTouchWall(). This function takes a collidable object and a proposed position, and it tells us whether moving to that position would cause a collision. One interesting detail is that this function doesn't actually do the collision checking itself. Instead, it delegates to willRectTouchWall(), which is implemented by subclasses of the base Walls class. Different subclasses implement their own algorithms—TileWalls uses grid-based checking, while CollisionMaskWalls uses bitmap-based checking. The base class just defines the interface, and the subclasses supply the real logic.
+# Technical Reflection: Collision Detection Architecture & Environment Configuration
 
-The second module I looked into is collidable.js, which handles tracking object-to-object collisions. This module is what determines whether two objects have just started touching, are still touching, or have separated. It exposes two important functions: startCollision(), which is triggered the moment two objects overlap and returns true only if it's a brand-new collision, and endCollision(), which resets the state when they separate. That reset makes sure future collisions can fire again instead of being ignored.
+## Part I: Collision Detection Architecture
+An analysis of the collision detection logic within `studio.js` reveals that the system relies on two primary modules to handle static environment interactions and dynamic object interactions.
 
-All of this ties back into the main game loop inside studio.js. Every single frame, right before movement updates, the engine calls willCollidableTouchWall() to check whether a sprite's new position would hit a wall. If the function says yes, we simply don't move the sprite—this is why sprites naturally stop at walls. After movement, the engine checks which objects are overlapping and uses startCollision() to trigger collision events. Together, these systems handle both wall collisions and object-to-object collisions.
+### 1. Wall Collision Prediction (`walls.js`)
+This module functions as a predictive system, determining whether a sprite or item will collide with a static boundary before movement occurs.
 
-The other major part of my work involved diagnosing the various setup issues we faced while getting the Code.org development environment running. The first major blocker was a Ruby version mismatch. We discovered that the machine was accidentally using two different Ruby installations: one from the operating system and another from rbenv. Because the repository requires Ruby 3.1.0 specifically, having mismatched versions caused errors like "ruby lib version doesn't match executable version." The only way to fix this was to remove all system-installed Rubies—including both APT and Snap packages—and make sure rbenv was providing the only Ruby on the system, and that it was version 3.1.0.
++ **Primary Interface:** `willCollidableTouchWall(collidable, proposedPosition)`
+    + **Function:** Evaluates whether moving to a `proposedPosition` will result in a collision.
+    + **Delegation:** This function does not perform the geometric calculation itself. Instead, it delegates to `willRectTouchWall()`, which is implemented polymorphically based on the wall system in use.
 
-We also ran into problems with missing CSS assets. The Rails server was looking for code-studio.css, but it wasn't present in the compiled asset directories. Even after running the usual build commands, the problem persisted. That suggested that some parts of the asset pipeline weren't completing correctly or weren't linking to the right directories. It took a fair amount of trial and error to trace through what Rails was expecting versus what was actually being generated.
++ **Implementation Strategies:**
+    + **`TileWalls`:** Utilizes grid-based logic for collision checks.
+    + **`CollisionMaskWalls`:** Utilizes bitmap mask checks for pixel-perfect collision.
+    + **Architecture:** The base `Walls` class defines the interface, while subclasses implement the specific detection algorithms.
 
-The third major issue showed up during the Webpack build step. Webpack would begin running and then simply exit without any error messages. Eventually, we discovered that the Node.js process was running out of memory. When that happened, it would crash mid-build and leave the node_modules state file in a corrupted state. Increasing Node's memory limit using the --max_old_space_size=4096 flag, and making sure the VM itself had enough physical RAM, fixed the issue and allowed Webpack to complete.
+### 2. Object-State Tracking (`collidable.js`)
+This module manages the lifecycle of collisions between two dynamic objects (sprites), tracking three distinct states: initiation, continuation, and cessation.
 
-Finally, I learned firsthand how much processor architecture matters. I initially tried to set up the environment on a Windows laptop with a Snapdragon ARM processor, but that approach turned out to be completely incompatible with many of the development tools and dependencies we needed. ARM Windows simply doesn't support the full toolchain required for Code.org's environment. I eventually resorted to using a remote x86 VM hosted overseas. While it technically worked, everything ran painfully slowly because every command had to round-trip over the network. That experience reinforced how crucial it is to develop on an x86 or x64 machine locally whenever possible.
++ **Key Lifecycle Methods:**
+    + `startCollision(a, b)`: Triggered a single time when two objects first intersect.
+    + `endCollision(a, b)`: Resets the collision state, allowing future collision events to trigger `startCollision` again.
+
+### 3. Integration within the Game Loop (`studio.js`)
+The game loop orchestrates these systems in the following sequence per frame:
+
+1. **Pre-Movement Check:** The engine invokes `willCollidableTouchWall()`.
+    + *Condition:* If the return value is `true`, movement is restricted.
+2. **Post-Movement Check:** The engine evaluates overlapping objects.
+    + *Action:* If an overlap is detected, `startCollision()` is invoked to trigger relevant game events.
+
+---
+
+## Part II: Environment Configuration Challenges
+During the setup of the development environment, several configuration conflicts were identified regarding Ruby versioning, the asset pipeline, and memory allocation.
+
+### 1. Ruby Version Architecture Conflicts
++ **Issue:** A discrepancy occurred where the Ruby library version (3.4.7) did not match the executable version (3.2.3).
++ **Root Cause:** The system contained conflicting Ruby installations managed concurrently by Ubuntu Snap, Ubuntu APT, and rbenv. The codebase strictly requires Ruby 3.1.0 via rbenv.
++ **Resolution:**
+    1. Complete removal of system-level Ruby installations (Snap and APT).
+    2. Reinstallation of `ruby-build`.
+    3. Exclusive installation of Ruby 3.1.0 via rbenv to ensure environment isolation.
+
+### 2. Asset Pipeline Failures (`code-studio.css`)
++ **Issue:** The Rails application reported `code-studio.css` as missing, persisting through `rake build` and `yarn build` execution.
++ **Analysis:** This was identified as a downstream effect of the previous Ruby mismatches and silent Webpack failures.
++ **Resolution:** Once the core dependencies (Ruby and Node) were stabilized, the asset pipeline successfully compiled the required CSS.
+
+### 3. Webpack Memory Allocation
++ **Issue:** Webpack processes terminated silently after 1–2 minutes without explicit error logs.
++ **Root Cause:** The Node.js process exceeded the available memory within the Virtual Machine (approx. 2GB), leading to heap corruption and corrupted `.cache` files in `node_modules`.
++ **Resolution:**
+    + Increased the Node memory limit: `export NODE_OPTIONS="--max_old_space_size=4096"`
+    + Allocated additional RAM to the VM.
+
+---
+
+## Part III: Architecture Incompatibility Analysis (Windows ARM)
+A significant portion of the setup process involved an investigation into the compatibility of the codebase with Windows ARM hardware (Snapdragon processors).
+
+### System Specifications
++ **Host:** Windows 11 (ARM64)
++ **Hardware:** Qualcomm Snapdragon
++ **Virtualization:** WSL (Ubuntu for ARM64)
+
+### Investigation Steps & Findings
+
+1. **WSL and Package Repositories:**
+   Running `wsl --install -d Ubuntu` on an ARM host deploys the ARM64 Linux kernel and repositories. Consequently, `apt install` commands retrieve ARM-specific binaries.
+
+2. **Dependency Chain Failures:**
+   The Code.org repository relies heavily on dependencies that require native C extensions and precompiled binaries specific to the **x86_64** architecture.
+   + **Ruby Gems:** Native extensions (e.g., `ffi`, `mysql2`) failed to compile due to missing headers or unsupported architecture errors (`unsupported architecture: arm64-linux`).
+   + **Node Packages:** `node-gyp` failed to build multiple packages. `prebuild-install` could not locate binaries for the `linux-arm64` platform.
+   + **Toolchain:** Essential tools including `MiniRacer`, `chromedriver`, and `chromedriver-helper` lack valid ARM builds in the required versions.
+
+### Conclusion
+The development environment is functionally incompatible with Windows ARM architecture due to deep dependencies on x86 instruction sets within the build pipeline.
+
+**Required Infrastructure:**
+To successfully build and run the environment, one of the following configurations is mandatory:
++ Native x86_64 macOS.
++ Native x86_64 Linux.
++ Local x86_64 Virtualization (with sufficient performance overhead).
